@@ -1,0 +1,39 @@
+.searchForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+.formInput {
+    font-size: 22px;
+    padding: 7px;
+    width: 100%;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+    color: black;
+}
+
+.parent_headType {
+    width: 100%;
+    display: flex;
+    border: 1px solid initial;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 7px;
+}
+
+.usersList {
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+    align-items: center;
+    background-color: #F6F8FA;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
