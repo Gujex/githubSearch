@@ -21,29 +21,23 @@ function SearchBar() {
 
   return (
     <>
-      <form className={styles.searchForm}>
-        <div>
+      <form className={styles.wrapper}>
+        <div className={styles.search_div}>
           <input
             onChange={(e) => fetchData(e.target.value)}
             className={styles.formInput}
             type="text"
-            placeholder="search user..
+            placeholder="Search user..
           "
           />
-          <div className={styles.parent_headType}>
-            {users.length === 0 || users[0].message ? (
-              <div>please type name</div>
-            ) : (
-              users[0].items.slice(0, 20).map((item, index) => {
+          {users.length === 0 || users[0].message
+            ? ""
+            : users[0].items.slice(0, 20).map((item, index) => {
                 const { login, avatar_url } = item;
                 return (
-                  <div className={styles.usersList}>
+                  <div key={index} className={styles.usersList}>
                     <a
-                      style={{
-                        width: "100%",
-                        display: "flex",
-                        alignItems: "center",
-                      }}
+                      className={styles.linkContainer}
                       key={index}
                       href={`https://github.com/${login}`}
                       target="_blank"
@@ -55,9 +49,7 @@ function SearchBar() {
                     </a>
                   </div>
                 );
-              })
-            )}
-          </div>
+              })}
         </div>
       </form>
     </>

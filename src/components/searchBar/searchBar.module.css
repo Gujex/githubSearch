@@ -1,19 +1,28 @@
-.searchForm {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 70%;
-    margin: auto;
+body {
+    background-color: gray;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.search_div {
+    background-color: #ffff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px solid black;
 }
 
 .formInput {
-    font-size: 22px;
-    padding: 7px;
     width: 100%;
-    border-radius: 10px;
-    border: 0.5px solid gray;
-    color: black;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 0 0 10px;
+    font-size: 40px;
+    box-shadow: 5px solid gray;
 }
 
 .parent_headType {
@@ -28,9 +37,21 @@
 .usersList {
     display: flex;
     width: 100%;
-    margin: 10px 0;
+    margin: 8px 0;
     align-items: center;
-    background-color: #F6F8FA;
+}
+
+.linkContainer {
+    width: 100%;
+    overflow-y: auto;
+    display: flex;
+    border-radius: 3px;
+    align-items: center;
+    background-color: #f6f8fa;
+}
+
+.linkContainer:hover {
+    background: #efefef;
 }
 
 img {
