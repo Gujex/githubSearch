@@ -3,26 +3,16 @@ body {
 }
 
 .wrapper {
-    max-width: 800px;
+    max-width: 70%;
     margin: 20px auto;
 }
 
 .search_div {
     background-color: #ffff;
-    width: 100%;
+    /* width: 100%; */
     padding: 10px;
     border-radius: 5px;
     box-shadow: 2px solid black;
-}
-
-.formInput {
-    width: 100%;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    padding: 0 0 0 10px;
-    font-size: 40px;
-    box-shadow: 5px solid gray;
 }
 
 .parent_headType {
@@ -32,6 +22,16 @@ body {
     flex-direction: column;
     align-items: flex-start;
     padding: 7px;
+}
+
+.formInput {
+    /* width: 100%; */
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 0 0 10px;
+    font-size: 35px;
+    box-shadow: 5px solid gray;
 }
 
 .usersList {
@@ -57,4 +57,14 @@ body {
 img {
     width: 50px;
     height: 50px;
+}
+
+@media screen and (max-width: 692px) {
+    .formInput {
+        font-size: 18px;
+    }
+    img {
+        width: 35px;
+        height: 35px;
+    }
 }
