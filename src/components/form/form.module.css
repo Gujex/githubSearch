@@ -1,5 +1,11 @@
 body {
-    background-color: gray;
+    background-color: rgb(247, 247, 247);
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #222;
 }
 
 .wrapper {
@@ -47,7 +53,7 @@ body {
     display: flex;
     border-radius: 3px;
     align-items: center;
-    background-color: #f6f8fa;
+    background-color: #fdfdfd;
 }
 
 .linkContainer:hover {
