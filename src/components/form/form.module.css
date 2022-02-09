@@ -40,10 +40,6 @@ a {
     margin: auto;
 }
 
-.linkContainer:hover {
-    background: #efefef;
-}
-
 img {
     width: 50px;
     height: 50px;
