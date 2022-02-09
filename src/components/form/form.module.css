@@ -15,23 +15,17 @@ a {
 
 .search_div {
     background-color: #ffff;
-    /* width: 100%; */
     padding: 10px;
     border-radius: 5px;
     box-shadow: 2px solid black;
 }
 
-.parent_headType {
-    width: 100%;
+.inputParent {
     display: flex;
-    border: 1px solid initial;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 7px;
 }
 
 .formInput {
-    /* width: 100%; */
+    width: 100%;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -40,20 +34,26 @@ a {
     box-shadow: 5px solid gray;
 }
 
+.itemsDiv {
+    margin-top: 10px;
+}
+
+.searchIcon {
+    font-size: 30px;
+    color: rgb(43, 38, 44);
+    margin: auto;
+}
+
 .usersList {
-    display: flex;
-    width: 100%;
-    margin: 8px 0;
-    align-items: center;
+    padding-block: 3px;
 }
 
 .linkContainer {
-    width: 100%;
-    overflow-y: auto;
     display: flex;
-    border-radius: 3px;
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: 10px;
     align-items: center;
-    background-color: #fdfdfd;
 }
 
 .linkContainer:hover {
@@ -63,6 +63,7 @@ a {
 img {
     width: 50px;
     height: 50px;
+    border-radius: 50%;
 }
 
 @media screen and (max-width: 692px) {
