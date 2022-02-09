@@ -1,0 +1,15 @@
+.itemsDiv {
+    margin-top: 10px;
+}
+
+.usersList {
+    padding-block: 3px;
+}
+
+.linkContainer {
+    display: flex;
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: 10px;
+    align-items: center;
+}

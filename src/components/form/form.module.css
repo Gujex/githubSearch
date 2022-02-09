@@ -15,6 +15,7 @@ a {
 
 .search_div {
     background-color: #ffff;
+    display: flex;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 2px solid black;
@@ -34,26 +35,10 @@ a {
     box-shadow: 5px solid gray;
 }
 
-.itemsDiv {
-    margin-top: 10px;
-}
-
 .searchIcon {
     font-size: 30px;
     color: rgb(43, 38, 44);
     margin: auto;
-}
-
-.usersList {
-    padding-block: 3px;
-}
-
-.linkContainer {
-    display: flex;
-    border-radius: 10px;
-    padding: 8px;
-    margin-left: 10px;
-    align-items: center;
 }
 
 .linkContainer:hover {
